@@ -1,0 +1,125 @@
+/* Custom styles for your Coffee website */
+.navbarText{
+   margin-left: auto;
+}
+.bg-nav-container{
+    background-color: #321b0b; /* Coffee brown color */
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #321b0b; /* Light beige background */
+}
+.background-main-container{
+    background-color: #321b0b; /* Beige color */
+    padding: 20px;
+}
+.textOfTheNavbar{
+    color:white;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.main-heading{
+    font-family: 'Vintage Serif', serif;
+    font-size: 58px;
+    color: #de8556; /* Dark coffee color */
+    text-align: left;
+    margin-top: 20px;
+}
+.subheading{
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #ffffff; /* Medium coffee color */
+    text-align: left;
+    margin-top: 10px;
+}
+.descrption{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #ffffff; /* Medium coffee color */
+; /* Light coffee color */
+    text-align: left;
+    margin-top: 10px;
+}
+
+.home-coffee-img{
+    height:550px;
+    width:550px;
+    padding-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.home-order-now-btn{
+    background-color: #c76f45; /* Dark coffee color */
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+
+}
+.home-order-now-btn:hover{
+    background-color: #5c3f2e; /* Medium coffee color on hover */
+}
+
+
+.home-contact-us-btn{
+    background-color: #5c3f2e; /* Medium coffee color */
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(34, 21, 21, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+
+
+}
+.home-contact-us-btn:hover{
+    background-color: #c76f45; /* Dark coffee color on hover */
+}
+.horizontal-line{
+    width: 50%;
+    height: 2px;
+    background-color: #2d1b11;
+    border: none;
+    
+}
+.background-about-us-container{
+    background-color: antiquewhite;
+    width: 100%;
+    margin-top: 60px;
+    padding: 80px 40px 60px 40px; /* more top padding for breathing room */
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about-us-paragraph-containers{
+    max-width: 500px;
+    margin-left: 40px;
+}
+.about-us-icon{
+    font-size: 30px;
+    color: #5e2e0b;
+    margin-right: 15px;
+}
+.about-us-icon:hover{
+    color: #c76f45;
+}
+
+/* Change hamburger (navbar toggler) color */
+.navbar-light .navbar-toggler-icon {
+  /* Default to white; change %23ffffff to any URL-encoded hex (e.g. %23de8556) */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
